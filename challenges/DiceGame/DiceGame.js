@@ -1,7 +1,7 @@
 function roll(){
 
 
-
+console.log("hello");
   return { d1: Math.floor(Math.random() *6 +1),
           d2: Math.floor(Math.random() *6 +1)};
 }
