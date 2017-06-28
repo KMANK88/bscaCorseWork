@@ -16,6 +16,8 @@
               3,2,2,1,2,8,8,8,7,6,5,6,6,5,2,4,3,2,2,4,4,6,7,7,7,8,8,1,8,1,9,2,3]
 
 
+
+
 function checkArray(mainArray,number){
   var duplicate = false;
   for(var i=0; i<mainArray.length; i+=1){

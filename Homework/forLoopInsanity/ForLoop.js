@@ -18,7 +18,7 @@ var filterNames = names.filter(function(word) {
 });
 
 }
-//console.log(filterNames)
+console.log(filterNames)
 
 // challenge Two
 // loop through the numbers array, and print numbers greater than 10
@@ -33,7 +33,7 @@ for(var i =0; i<=arr.length; i+=1){
 }
 return(acceptingNumbers)
 }
-//console.log(myNumbers(numbers));
+console.log(myNumbers(numbers));
 
 
 // challenge Three
@@ -47,7 +47,7 @@ for(var i =0; i<=arr.length; i+=1){
 	}
 }return acceptingNumbers;
 }
-//console.log(numbersFunction(numbers))
+console.log(numbersFunction(numbers))
 
 
 // bonus: Only print the odd numbers that meet these conditions
@@ -65,7 +65,7 @@ function myRandomArray(arr){
 		}
 	}return AddItems;
 }
-//console.log(myRandomArray(randomItems));
+console.log(myRandomArray(randomItems));
 
 // challenge Five
 // loop through the array of customer objects, and print ONLY their names
@@ -87,7 +87,7 @@ for (var i = 0; i < arr.length; i++) {
   }
 }return CustomerNames;
 }
-//console.log(myCustomers(customers));
+console.log(myCustomers(customers));
 
 
 // challenge Six
