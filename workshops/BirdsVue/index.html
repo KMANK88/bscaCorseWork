@@ -4,12 +4,13 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title></title>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-
+    <link rel="stylesheet" href="css/styling.css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -18,9 +19,10 @@
     <![endif]-->
   </head>
   <body>
+    <center>
       <div id="app">
         <h2>{{ title }}</h2>
-        <div >
+        <div class = "birdBlock" >
           <div v-for ="b in birds">
             <h3>{{ b.name }}</h3>
             <p>{{ b.species }}</p>
@@ -33,12 +35,12 @@
 
             <form id="myForm" v-on:submit.prevent='addBird'>
 
-              <div class = 'col-md-12'>
+              <div class = 'col-md-12' >
                 <label>Bird Name</label>
                 <input type="text" v-model = 'name' />
               </div>
 
-              <div class = 'col-md-12'>
+              <div class = 'col-md-12 '>
                 <label>Bird Species</label>
                 <input type="text" v-model = 'species' />
               </div>
@@ -58,7 +60,7 @@
             </form>
 
           </div>
-
+        </center>
       </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
