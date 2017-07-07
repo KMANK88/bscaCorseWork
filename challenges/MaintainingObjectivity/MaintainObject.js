@@ -16,6 +16,11 @@
         Queen.addBandMate("Freddie Murcury","vocals");
         Queen.addBandMate("van halen", "Guitar");
 
+
+
+
+
+
  /* Go ahead and log your new object to console below, then run your program in
  * Node. If your blank object appears in terminal/command prompt, you're good
  * to go to the next step!
@@ -30,7 +35,11 @@
  *  talkingHeads.addBandmate = function addBandmate(name,instrument){
  *      console.log("Adding",name,"and",instrument);
  *  }
- *
+*/
+
+
+
+/*
  * Note that for now, we're just going to log what we pass to our function's
  * arguments to console. Now, call your object's new function (outside of the
  * function declaration), passing it a couple of test band member names and
