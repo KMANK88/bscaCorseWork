@@ -1,0 +1,29 @@
+.flex-container{
+  border: solid 10px #f1c40f;
+}
+
+.flex-item{
+  border: solid 3px red;
+  font-size: 50px;
+  text-align: center;
+}
+
+.item1{
+  background-color: #1abc9c
+}
+
+.item2{
+  background-color: #9b59b6
+}
+.item3{
+  background-color: #2c3e50
+}
+.item4{
+  background-color:#c0392b
+}
+.item5{
+  background-color: #f1c40f
+}
+.item6{
+  background-color: #e67e22
+}
